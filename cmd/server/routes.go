@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/raymondoyondi/go-ticketing/internal/server"
-	"github.com/raymondoyondi/go-ticketing/pkgs/api"
+	"github.com/raymondoyondi/Movie-Reservation-System/internal/server"
+	"github.com/raymondoyondi/Movie-Reservation-System/pkgs/api"
 )
 
 func (s *Server) setupRoutes() {
