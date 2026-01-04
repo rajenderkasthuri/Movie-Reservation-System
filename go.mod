@@ -1,4 +1,4 @@
-module github.com/Movie-Reservation-System
+module github.com/Movie-Reservation-System/Movie-Reservation-System
 
 go 1.14
 
