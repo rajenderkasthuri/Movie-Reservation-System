@@ -1,4 +1,4 @@
-module github.com/Movie-Reservation-System/go-ticketing
+module github.com/Movie-Reservation-System
 
 go 1.14
 
