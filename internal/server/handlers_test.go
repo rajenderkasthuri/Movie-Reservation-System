@@ -37,7 +37,7 @@ func Test_httpServer_accessControlHandler(t *testing.T) {
 			hServer.Router.Handle("GET", tt.args.path, hServer.AccessControlHandler(tt.args.next))
 			req, err := http.NewRequest("GET", tt.args.path, nil)
 			if err != nil {
-				t.Fatalf(err.Error())
+				t.Fatalf("%v", err)
 			}
 
 			rr := httptest.NewRecorder()
@@ -98,7 +98,7 @@ func Test_httpServer_logHandler(t *testing.T) {
 			hServer.Router.Handle("GET", tt.args.path, hServer.LogHandler(tt.args.next))
 			req, err := http.NewRequest("GET", tt.args.path, nil)
 			if err != nil {
-				t.Fatalf(err.Error())
+				t.Fatalf("%v", err)
 			}
 
 			rr := httptest.NewRecorder()
@@ -165,7 +165,7 @@ func Test_httpServer_recoverHandler(t *testing.T) {
 			hServer.Router.Handle("GET", tt.args.path, hServer.RecoverHandler(tt.args.next))
 			req, err := http.NewRequest("GET", tt.args.path, nil)
 			if err != nil {
-				t.Fatalf(err.Error())
+				t.Fatalf("%v", err)
 			}
 
 			rr := httptest.NewRecorder()
@@ -224,7 +224,7 @@ func Test_wrapHandlers(t *testing.T) {
 			httpRouter := hServer.Router
 			req, err := http.NewRequest("GET", tt.path, nil)
 			if err != nil {
-				t.Fatalf(err.Error())
+				t.Fatalf("%v", err)
 			}
 
 			rr := httptest.NewRecorder()
