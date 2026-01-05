@@ -31,7 +31,7 @@ func healthCheckStatus(request *http.Request, writer http.ResponseWriter) {
 					"status": "OK"
         }`
 	writer.Header().Set("Content-Type", "application/json")
-	_, _ = fmt.Fprintf(writer, healthResponse)
+	_, _ = fmt.Fprintf(writer, "%s", healthResponse)
 }
 
 func NotFoundHandler(request *http.Request, writer http.ResponseWriter) {
@@ -42,5 +42,5 @@ func NotFoundHandler(request *http.Request, writer http.ResponseWriter) {
 				}`
 	writer.Header().Set("Content-Type", "application/json")
 	writer.WriteHeader(http.StatusNotFound)
-	_, _ = fmt.Fprintf(writer, healthResponse)
+	_, _ = fmt.Fprintf(writer, "%s", healthResponse)
 }
