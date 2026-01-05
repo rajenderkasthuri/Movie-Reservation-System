@@ -65,7 +65,7 @@ func (b *Booking) BookSeats(db *gorm.DB, seatNumbers []int, seatType SeatType) e
 		if revert.Error != nil {
 			errorMsg += "Error, while reverting, " + revert.Error.Error()
 		}
-		return fmt.Errorf(errorMsg)
+		return fmt.Errorf("%s", errorMsg)
 	}
 	return nil
 }
